@@ -1,0 +1,6 @@
+app:
+  build: .
+  container_name: youtrack_app
+  restart: always
+  ports:
+    - "127.0.0.1:8112:8112"
