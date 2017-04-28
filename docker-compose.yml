@@ -1,6 +1,10 @@
 app:
   build: .
   container_name: youtrack_app
+  hostname: youtrack_app
   restart: always
   ports:
     - "127.0.0.1:8112:8112"
+  volumes:
+    - /home/$USER/teamsysdata:/root/teamsysdata
+    - /home/$USER/teamsysdata-backup:/root/teamsysdata-backup
