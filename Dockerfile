@@ -2,7 +2,7 @@ FROM java:8
 
 MAINTAINER oabogatenko@gmail.com
 
-ENV YOUTRACK_VERSION 2017.2.34480
+ENV YOUTRACK_VERSION 2017.3.35488
 RUN wget http://download.jetbrains.com/charisma/youtrack-$YOUTRACK_VERSION.jar -O youtrack.jar
 
 EXPOSE 8112
